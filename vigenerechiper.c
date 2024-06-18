@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<conio.h>
+//#include<conio.h>
 #include <ctype.h>
 #include <string.h>
 int encipher();
@@ -14,13 +14,13 @@ printf("\t2. Decrypt Text");
 printf("\t3. Exit");
 printf("\n\nEnter Your Choice : ");
 scanf("%d",&choice);
-if(choice == 3);
-else if(choice == 1)
+if(choice == 1)
 encipher();
 else if(choice == 2)
 decipher();
 else
-printf("Please Enter Valid Option.");
+printf("Invalid Option.");
+break;
 }
 }
 int encipher()
